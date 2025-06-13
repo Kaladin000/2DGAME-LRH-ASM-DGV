@@ -47,5 +47,7 @@
 
 #Para que no den errores:
 * text=auto
-* text eol=crlf
-* text eol=lf
+
+*.tf  eol=lf
+*.tfvars  eol=lf
+*.yml  eol=lf
