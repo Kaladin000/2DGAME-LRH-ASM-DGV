@@ -45,3 +45,5 @@
 *.bin               filter=lfs diff=lfs merge=lfs -text
 *.dylib             filter=lfs diff=lfs merge=lfs -text
 
+#Para que no den errores:
+* text=auto
