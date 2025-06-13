@@ -47,3 +47,5 @@
 
 #Para que no den errores:
 * text=auto
+* text eol=crlf
+* text eol=lf
