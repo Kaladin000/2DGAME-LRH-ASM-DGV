@@ -1,5 +1,4 @@
 ## git-lfs ##
-
 #Image
 *.jpg               filter=lfs diff=lfs merge=lfs -text
 *.jpeg              filter=lfs diff=lfs merge=lfs -text
@@ -7,22 +6,18 @@
 *.gif               filter=lfs diff=lfs merge=lfs -text
 *.psd               filter=lfs diff=lfs merge=lfs -text
 *.ai                filter=lfs diff=lfs merge=lfs -text
-
 #Audio
 *.mp3               filter=lfs diff=lfs merge=lfs -text
 *.wav               filter=lfs diff=lfs merge=lfs -text
 *.ogg               filter=lfs diff=lfs merge=lfs -text
-
 #Video
 *.mp4               filter=lfs diff=lfs merge=lfs -text
 *.mov               filter=lfs diff=lfs merge=lfs -text
-
 #3D Object
 *.FBX               filter=lfs diff=lfs merge=lfs -text
 *.fbx               filter=lfs diff=lfs merge=lfs -text
 *.blend             filter=lfs diff=lfs merge=lfs -text
 *.obj               filter=lfs diff=lfs merge=lfs -text
-
 #ETC
 *.a                 filter=lfs diff=lfs merge=lfs -text
 *.exr               filter=lfs diff=lfs merge=lfs -text
@@ -31,8 +26,28 @@
 *.zip               filter=lfs diff=lfs merge=lfs -text
 *.dll               filter=lfs diff=lfs merge=lfs -text
 *.unitypackage      filter=lfs diff=lfs merge=lfs -text
+*.unity             filter=lfs diff=lfs merge=lfs -text
 *.aif               filter=lfs diff=lfs merge=lfs -text
 *.ttf               filter=lfs diff=lfs merge=lfs -text
 *.rns               filter=lfs diff=lfs merge=lfs -text
 *.reason            filter=lfs diff=lfs merge=lfs -text
 *.lxo               filter=lfs diff=lfs merge=lfs -text
+*.asset             filter=lfs diff=lfs merge=lfs -text
+*.json              filter=lfs diff=lfs merge=lfs -text
+*.meta              filter=lfs diff=lfs merge=lfs -text
+*.graph             filter=lfs diff=lfs merge=lfs -text
+*.cs                filter=lfs diff=lfs merge=lfs -text
+*.cs.meta           filter=lfs diff=lfs merge=lfs -text
+*.md                filter=lfs diff=lfs merge=lfs -text
+*.asmdef            filter=lfs diff=lfs merge=lfs -text
+*.mat               filter=lfs diff=lfs merge=lfs -text
+*.uxml              filter=lfs diff=lfs merge=lfs -text
+*.bin               filter=lfs diff=lfs merge=lfs -text
+*.dylib             filter=lfs diff=lfs merge=lfs -text
+
+#Para que no den errores:
+* text=auto
+
+*.tf  eol=lf
+*.tfvars  eol=lf
+*.yml  eol=lf
