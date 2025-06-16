@@ -1,0 +1,1 @@
+VAR vecesHabladasNPC0 = 0
